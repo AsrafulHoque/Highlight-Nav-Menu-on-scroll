@@ -1,0 +1,21 @@
+/**
+ * @Main scss for (Template/Project Name)
+ * @project     - Project Name
+ * @author      - 
+ * @created_by  - kawsar bin siraj
+ * @created_at  - 
+ * @modified_by -
+ */
+/* fonts import */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800;900&display=swap");
+/* fonts import -END */
+/* reset, root */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Poppins', sans-serif; }
+
+/*# sourceMappingURL=style.css.map */

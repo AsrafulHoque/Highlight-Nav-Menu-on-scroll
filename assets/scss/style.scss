@@ -1,0 +1,63 @@
+/**
+ * @Main scss for (Template/Project Name)
+ * @project     - Project Name
+ * @author      - 
+ * @created_by  - kawsar bin siraj
+ * @created_at  - 
+ * @modified_by -
+ */
+
+
+/* fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800;900&display=swap');
+//font-family: 'Poppins', sans-serif;
+/* fonts import -END */
+
+
+
+.home,.Porifolio,.about,.service,.contact{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    font-size: 50px;
+    font-weight: 900;
+    color: hotpink;
+    border-bottom: 10px solid red;
+}
+
+
+/* reset, root */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    .navbar-nav {
+        .nav-item {
+            &.active{
+                padding: 10 10px;
+                background: black;
+                display: flex;
+                align-items: center;
+                transition: background .3s all ease;
+                color: #fff;
+            }
+
+            .nav-link {
+                font-size: 18px;
+                font-weight: 400;
+                color: hotpink;
+                display: block;
+
+
+            }
+
+        }
+    }
+}
